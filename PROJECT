@@ -6,7 +6,7 @@ domain: k8s.chia.net
 layout:
 - go.kubebuilder.io/v4
 projectName: chia-operator
-repo: github.com/chia-network/chia-operator
+repo: github.com/chia-network
 resources:
 - api:
     crdVersion: v1
