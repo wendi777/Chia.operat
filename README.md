@@ -1,6 +1,6 @@
 # chia-operator
 
-NOTE: This is a very early implementation. Features may come in at a fast pace, bugs may exist in plenty, and the CRs themselves may change drastically during this stage. In short: this code is not guaranteed to work. That said, it is being ran as a  couple  of  farms  on  the  mainnet  and  testnet10  networks  today.
+NOTE: This is a very early implementation. Features may come in at a fast pace, bugs may exist in plenty, and the CRs themselves may change drastically during this stage. In short: this code is not guaranteed to work. That said, it is being ran as a  couple  of  farms  on  the  mainnet and   testnet10 networks today.
 
 Kubernetes operator for managing Chia components in kubernetes.  Currently  supported  components:
 
