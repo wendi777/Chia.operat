@@ -36,7 +36,7 @@ make deploy
 
 ### Start a farm
 
-This guide installs everything in the default namespace, but you can of course install them in any namespace. These are also all fairly minimal examples with just enough config to be helpful. Other options are supported. See the `config/samples` directory of this repo for more full examples.
+This guide installs everything in the default namespace, but you can of  course install  them in any namespace. These are also all fairly minimal examples with just enough config to be helpful. Other options are supported. See the `config/samples` directory of this  repo for more full examples.
 
 #### SSL CA
 
