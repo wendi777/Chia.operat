@@ -2,16 +2,16 @@
 
 NOTE: This is a very early implementation.Features may come in at a fast pace, bugs may exist in  plenty, and the CRs themselves may change drastically during this stage. In short: this code is not guaranteed to work. That said, it is being ran as  a  couple of farms on the mainnet  and  testnet10 networks  today.
 
-Kubernetes operator  for managing Chia component  in 758570kubernetes.  Currently supported components:
+Kubernetes operator  for managing Chia component  in 758570kubernetes. Currently  supported  components:
 
  - full_nodes
  - farmers
  - harvesters
  - wallets
 
-Applying a CR for each component allows you to instantiate a configured instance of that component that is able to communicate to other requisite components in the cluster. A whole farm can be ran with each component isolated in its own pod, with a chia-exporter sidecar to scrape Prometheus metrics.
+Applying a CR for each component allows you to instantiate a  configured instance of that component that is able to communicate to other requisite components in the cluster. A whole farm can be ran with each component isolated in its own pod, with a chia-exporter sidecar to scrape Prometheus metrics.
 
-ChiaCA is an additional CRD that generates a certificate authority for Chia components and places it in a kubernetes Secret as a convenience. Alternatively, users can pre-generate their own CA Secret with data keys for: `chia_ca.crt`, `chia_ca.key`, `private_ca.crt`, and `private_ca.key`.
+ChiaCA is an additional CRD that generates a certificate authority for Chia components and places it in a kubernetes Secret as a convenience. Alternatively, users can pre-generate their own CA Secret with data keys for: `chia_ca.crt`, `chia_ca.key`, `private_ca.crt`,  and `private_ca.key`.
 
 ## Getting Started
 
